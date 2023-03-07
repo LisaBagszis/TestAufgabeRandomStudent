@@ -8,6 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model1/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model1/StudentDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model1/StudentDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/model1/StudentDBTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model1/StudentDBTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +72,7 @@
       <recent name="model1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.StudentDBTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="model1.Main" />
       <module name="TestAufgabeRandomStudent" />
@@ -150,10 +151,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StudentDBTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.StudentDBTest.shouldReturnStudentOne" />
         <item itemvalue="JUnit.StudentDBTest.parameterIdShouldReturnStudent" />
-        <item itemvalue="JUnit.StudentDBTest" />
         <item itemvalue="JUnit.TestAufgabeRandomStudent.giveStringBack" />
       </list>
     </recent_temporary>
@@ -167,7 +168,7 @@
       <option name="presentableId" value="Default" />
       <updated>1678111552585</updated>
       <workItem from="1678111554199" duration="15757000" />
-      <workItem from="1678177578695" duration="8060000" />
+      <workItem from="1678177578695" duration="10765000" />
     </task>
     <task id="LOCAL-00001" summary="Aufgabe Fertig ohne Bonus">
       <created>1678122199489</created>
@@ -176,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678122199489</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Aufgabe Fertig ohne Bonus">
+      <created>1678195771639</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678195771639</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,5 +193,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Aufgabe Fertig ohne Bonus" />
     <option name="LAST_COMMIT_MESSAGE" value="Aufgabe Fertig ohne Bonus" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/model1/StudentDBTest.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

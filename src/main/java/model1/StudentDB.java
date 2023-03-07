@@ -2,37 +2,38 @@ package model1;
 
 import model1.StudentDB;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.NoSuchElementException;
 
 public class StudentDB {
 
-    private Student[] students;
+    ArrayList<Student> students;
 
-    public StudentDB(Student[] students) {
+    public StudentDB(ArrayList<Student> students) {
         this.students = students;
 
     }
 
-    public Student[] getAllStudents() {
+    public ArrayList<Student> getAllStudents() {
         return students;
-    }
+    } //Rückgabe wird angegegebn
 
     public Student randomStudent() {
         // 2           = 0.9      *        3
-        int random = (int) (Math.random() * students.length);
-        return students[random];
+        int random = (int) (Math.random() * students.size());
+        return students.get(random);
     }
 
 
     public Student findById(String searchId) {
 
-        for (int i = 0; i < students.length; i++) {
+        for (Student item : students) {
 
-            if (students[i].getId().equals(searchId)) {
-                return students[i];
+            if (item.getId().equals(searchId)) {
+                return item;
             }
-
         }
         throw new NoSuchElementException();
     }
@@ -40,9 +41,8 @@ public class StudentDB {
     @Override
     public String toString() {
         return "StudentDB{" +
-                "students=" + Arrays.toString(students) +
+                "students=" + students +
                 '}';
     }
-
 }
 

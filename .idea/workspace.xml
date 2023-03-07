@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8357b99-b353-495a-a65d-ad51820f1086" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model1/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model1/StudentDB.java" afterDir="false" />
+    <list default="true" id="a8357b99-b353-495a-a65d-ad51820f1086" name="Changes" comment="Aufgabe Fertig ohne Bonus">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model1/StudentDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model1/StudentDB.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -52,6 +47,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -67,6 +64,12 @@
       <recent name="$PROJECT_DIR$/src/main/java/model1" />
       <recent name="$PROJECT_DIR$/src/main" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="model1" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -78,6 +81,53 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentDBTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestAufgabeRandomStudent" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="model1" />
+      <option name="MAIN_CLASS_NAME" value="model1.StudentDBTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentDBTest.parameterIdShouldReturnStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestAufgabeRandomStudent" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="model1" />
+      <option name="MAIN_CLASS_NAME" value="model1.StudentDBTest" />
+      <option name="METHOD_NAME" value="parameterIdShouldReturnStudent" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentDBTest.shouldReturnStudentOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestAufgabeRandomStudent" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="model1" />
+      <option name="MAIN_CLASS_NAME" value="model1.StudentDBTest" />
+      <option name="METHOD_NAME" value="shouldReturnStudentOne" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -101,6 +151,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.StudentDBTest.shouldReturnStudentOne" />
+        <item itemvalue="JUnit.StudentDBTest.parameterIdShouldReturnStudent" />
+        <item itemvalue="JUnit.StudentDBTest" />
         <item itemvalue="JUnit.TestAufgabeRandomStudent.giveStringBack" />
       </list>
     </recent_temporary>
@@ -113,11 +166,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678111552585</updated>
-      <workItem from="1678111554199" duration="10556000" />
+      <workItem from="1678111554199" duration="15757000" />
+      <workItem from="1678177578695" duration="8060000" />
     </task>
+    <task id="LOCAL-00001" summary="Aufgabe Fertig ohne Bonus">
+      <created>1678122199489</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678122199489</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Aufgabe Fertig ohne Bonus" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aufgabe Fertig ohne Bonus" />
   </component>
 </project>
